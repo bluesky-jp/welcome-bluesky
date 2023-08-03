@@ -5,7 +5,9 @@ on:
     branches: [main]
 
 permissions:
-  contents: read
+  actions: write
+  checks: write
+  contents: write
   pages: write
   id-token: write
 
