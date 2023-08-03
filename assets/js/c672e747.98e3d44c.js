@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwelcome_bluesky=self.webpackChunkwelcome_bluesky||[]).push([[9682],{9529:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/welcome-bluesky/blog/tags/hola","allTagsPath":"/welcome-bluesky/blog/tags","count":1}')}}]);
