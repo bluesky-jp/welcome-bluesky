@@ -5,11 +5,7 @@ on:
     branches: [main]
 
 permissions:
-  actions: write
-  checks: write
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   deploy:
