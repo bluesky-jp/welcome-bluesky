@@ -16,18 +16,20 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
-            className="ml-0 button button--secondary button--lg"
+            className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            🔰 Bluesky のはじめ方
+            🔰 はじめ方
           </Link>
 
-          <Link
-            className="ml-4 button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            🚶 Bluesky の歩き方
-          </Link>
+          <div className={styles.btnWalks}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/docs/walks"
+            >
+              🚶 歩き方
+            </Link>
+          </div>
         </div>
       </div>
     </header>

@@ -3,6 +3,10 @@
  * and scoped locally.
  */
 
+.btnWalks {
+  margin-left: 1rem;
+}
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
