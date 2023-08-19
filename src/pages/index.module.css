@@ -3,12 +3,42 @@
  * and scoped locally.
  */
 
-.heroBanner {
+.btnWalks {
+  margin-left: 1rem;
+}
+
+/* .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+} */
+
+.heroBanner  {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
 }
+
+.heroBanner:before {
+  content: '';
+  background-image: url("/img/back.jpeg");
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  filter: blur(3px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 
 @media screen and (max-width: 996px) {
   .heroBanner {

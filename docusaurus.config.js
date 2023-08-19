@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Welcome Bluesky!',
-  tagline: '分散型 SNS Bluesky へようこそ！',
+  tagline: 'Bluesky へようこそ！',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -68,20 +68,20 @@ const config = {
         title: 'Welcome Bluesky',
         logo: {
           alt: 'Bluesky',
-          src: 'img/logo.svg',
+          src: 'img/logo_rc.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'ドキュメント',
           },
-          {
-            to: '/blog',
-            label: 'Blog',
-            position: 'left'
-          },
+          // {
+          //   to: '/blog',
+          //   label: 'Blog',
+          //   position: 'left'
+          // },
           {
             href: 'https://github.com/bluesky-jp/welcome-bluesky',
             label: 'GitHub',
@@ -96,7 +96,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'ドキュメント',
                 to: '/docs/intro',
               },
             ],
@@ -104,30 +104,30 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com/docusaurus',
+              // },
             ],
           },
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
-                href: 'https://github.com/bluesky-jp/welcome-bluesky',
+                href: 'https://github.com/bluesky-jp/',
               },
             ],
           },
@@ -138,22 +138,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
-
-  plugins: [
-    // ....
-    async function addTailwindPlugin(context, options) {
-      return {
-        name: "docusaurus-tailwindcss",
-        configurePostCss(postcssOptions) {
-          // Appends TailwindCSS and AutoPrefixer.
-          postcssOptions.plugins.push(require("tailwindcss"));
-          postcssOptions.plugins.push(require("autoprefixer"));
-          return postcssOptions;
-        },
-      };
-    },
-  ],
+    })
 };
 
 module.exports = config;
