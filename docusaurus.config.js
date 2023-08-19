@@ -68,7 +68,7 @@ const config = {
         title: 'Welcome Bluesky',
         logo: {
           alt: 'Bluesky',
-          src: 'img/logo.svg',
+          src: 'img/logo_rc.png',
         },
         items: [
           {

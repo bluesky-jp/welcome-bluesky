@@ -1,6 +1,5 @@
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
@@ -22,14 +21,15 @@ function HomepageHeader() {
             🔰 はじめ方
           </Link>
 
-          <div className={styles.btnWalks}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/walks"
-            >
-              🚶 歩き方
-            </Link>
-          </div>
+          <Link
+            className={clsx(
+              "button button--secondary button--lg",
+              styles.btnWalks
+            )}
+            to="/docs/walks"
+          >
+            🚶 歩き方
+          </Link>
         </div>
       </div>
     </header>
@@ -44,9 +44,7 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <main></main>
     </Layout>
   );
 }
