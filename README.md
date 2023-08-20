@@ -20,4 +20,6 @@ Bluesky コミュニティー有志による、Bluesky の紹介・解説ドキ�
 
 ## ライセンス
 
+コピー・改変をして使用・再配布して問題ありません。だたし、非商用に限ります。
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a>
