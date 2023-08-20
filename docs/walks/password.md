@@ -16,27 +16,23 @@ App Passwordは、ユーザーのアカウントパスワードとほとんど�
 
 そのため、もしあなたがサードパーティのクライアントを使用する場合や、APIを使用してアプリを開発する際にはApp Passwordを使用することが**強く推奨されています**。
 
-### 公式クライアントから作成する方法
-
-- [https://bsky.app](https://bsky.app)
-
 :::info
-公式のWebクライアントを使用して記述しますが、AndroidやiOSのモバイルアプリについても操作方法は同じです。
+**[公式のWebクライアント](https://bsky.app)**を使用して記述しますが、AndroidやiOSのモバイルアプリについても操作方法は同じです。
 :::
 
-#### 1. `Settings`を開く
+### 1. `Settings`を開く
 
 ![AppPasswords0](./img/password/app_password_web_0.png)
 
-#### 2. `Advanced`セクションから`App passwords`ボタンを押す
+### 2. `Advanced`セクションから`App passwords`ボタンを押す
 
 ![AppPasswords1](./img/password/app_password_web_1.png)
 
-#### 3. `Add App Password`ボタンを押す
+### 3. `Add App Password`ボタンを押す
 
 ![AppPasswords2](./img/password/app_password_web_2.png)
 
-#### 4. App Password の名前を入力して`Create App Password`を押す
+### 4. App Password の名前を入力して`Create App Password`を押す
 
 ![AppPasswords3](./img/password/app_password_web_3.png)
 
@@ -52,7 +48,7 @@ App Passwordの名前に入力できるのは以下の文字だけです。
 また、許容される文字数は **_4文字以上32文字以内_** です。
 :::
 
-#### 5. 生成されたApp Passwordをコピーして安全な場所に保存する
+### 5. 生成されたApp Passwordをコピーして安全な場所に保存する
 
 ![AppPasswords4](./img/password/app_password_web_4.png)
 
