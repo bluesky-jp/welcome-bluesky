@@ -12,7 +12,7 @@ Bluesky 特有のパスワードの取り扱いについて記載しています
 
 ## App Password
 
-### 公式クライアント
+### 公式クライアントから作成する方法
 
 - [https://bsky.app](https://bsky.app)
 
