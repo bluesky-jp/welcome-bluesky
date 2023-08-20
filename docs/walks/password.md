@@ -26,19 +26,19 @@ App Passwordは、ユーザーのアカウントパスワードとほとんど�
 
 #### 1. `Settings`を開く
 
-![AppPasswords0](../walks/img/password/app_password_web_0.png)
+![AppPasswords0](./img/password/app_password_web_0.png)
 
 #### 2. `Advanced`セクションから`App passwords`ボタンを押す
 
-![AppPasswords1](../walks/img/password/app_password_web_1.png)
+![AppPasswords1](./img/password/app_password_web_1.png)
 
 #### 3. `Add App Password`ボタンを押す
 
-![AppPasswords2](../walks/img/password/app_password_web_2.png)
+![AppPasswords2](./img/password/app_password_web_2.png)
 
 #### 4. App Password の名前を入力して`Create App Password`を押す
 
-![AppPasswords3](../walks/img/password/app_password_web_3.png)
+![AppPasswords3](./img/password/app_password_web_3.png)
 
 :::tip
 App Passwordの名前に入力できるのは以下の文字だけです。
@@ -54,7 +54,7 @@ App Passwordの名前に入力できるのは以下の文字だけです。
 
 #### 5. 生成されたApp Passwordをコピーして安全な場所に保存する
 
-![AppPasswords4](../walks/img/password/app_password_web_4.png)
+![AppPasswords4](./img/password/app_password_web_4.png)
 
 :::danger
 生成されたApp Passwordは **_絶対_** に他者と共有しないでください。
@@ -62,5 +62,5 @@ App Passwordの名前に入力できるのは以下の文字だけです。
 もしあなたが作成したApp Passwordがなんらかの理由で他者に使用されたと思われる場合は、速やかに以下のように該当のApp Passwordを削除してください。
 また、不要になったApp Passwordや、紛失したApp Passwordについても削除するようにしてください。
 
-![AppPasswords5](../walks/img/password/app_password_web_5.png)
+![AppPasswords5](./img/password/app_password_web_5.png)
 :::
