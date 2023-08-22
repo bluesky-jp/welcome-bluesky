@@ -8,7 +8,7 @@ Bluesky に興味があるけど、はじめ方が分からないという方に
 
 ## Bluesky とは？
 
-Bluesky は Twitter の類似サービスとして期待されている分散 SNS の一つです。 [X 📖](/docs/extras/reference#x-旧-twitter) の創設者である Jack Dorsey による出資を受けており、 Bluesky, PBLLC によって開発・運営されています。運営自体は大きな組織ではなく、そのためか、**Bluesky のアプリは日本語化されておらず**、操作に迷うことがあると思います。本ドキュメンの目的の一つにそのサポートがあります。
+Bluesky は Twitter の類似サービスとして期待されている分散 SNS の一つです。 [X 📖](/docs/extras/reference#x-旧-twitter) の創設者である Jack Dorsey による出資を受けており、 Bluesky PBC によって開発・運営されています。運営自体は大きな組織ではなく、そのためか、**Bluesky のアプリは日本語化されておらず**、操作に迷うことがあると思います。本ドキュメンの目的の一つにそのサポートがあります。
 
 ## 二通りの参加方法
 
