@@ -83,7 +83,7 @@ DNS の設定項目の内容である `did=` から始まる文字列をコピ�
 
 ホーム画面から取得したドメインを選択します。
 
-<Image width="700" mb="1rem" src={require("./img/custom_domain_web_4_c_1.png").default} />
+<Image width="800" mb="1rem" src={require("./img/custom_domain_web_4_c_1.png").default} />
 
 `DNS` タブを選択します。
 
@@ -96,7 +96,7 @@ DNS の設定項目の内容である `did=` から始まる文字列をコピ�
 
 ホーム画面から、ドメインの DNS 設定を選択します。
 
-<Image width="450" mb="1rem" src={require("./img/custom_domain_web_4_o_1.png").default} />
+<Image width="500" mb="1rem" src={require("./img/custom_domain_web_4_o_1.png").default} />
 
 購入したドメインをチェックし、次へを選択します。
 
@@ -144,7 +144,7 @@ DNS の設定画面に遷移できたら、TXT レコードを追加します。
 
 入力したら、右の `追加` ボタンを押してください。**追加を押しただけでは、設定は完了していません。** 追加後、画面の一番下にあるボタンから確認画面に遷移して確認を完了してください。
 
-<Image width="600" src={require("./img/custom_domain_web_6_o_2.png").default} />
+<Image width="500" src={require("./img/custom_domain_web_6_o_2.png").default} />
 
   </TabItem>
 </Tabs>
