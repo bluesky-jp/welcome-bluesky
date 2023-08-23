@@ -139,6 +139,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: '70NB23PB3Q',
+        apiKey: 'faa656ccb1768baccd4dd64626dab0f1',
+        indexName: 'welcome-bluesky',
+      },
     })
 };
 
