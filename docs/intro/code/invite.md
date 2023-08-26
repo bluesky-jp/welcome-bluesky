@@ -12,7 +12,7 @@ Bluesky はユーザーに一定期間毎に一つ、招待コードが配布さ
 
 ### X の Bluesky ユーザーを探す方法
 
-Bluesky を既にはじめていて、[X 📖](/docs/extras/reference#x-旧-twitter) にもアカウントが存在するユーザーは、X に Bluesky のアカウントを呟いている可能性があります。X で検索をすることによって、見つけることができるかもしれません。フォローしている人で、かつ Bluesky のアカウントのプロフィール URL を呟いているユーザーを検索するには `filter:follows -filter:retweets -filter:replies bsky.app` のように検索を行い、[このページ](https://twitter.com/search?q=filter%3Afollows%20-filter%3Aretweets%20-filter%3Areplies%20bsky.social&src=typed_query&f=live)で結果が確認できます。
+Bluesky を既にはじめていて、[X 📖](/docs/extras/reference#x-旧-twitter) にもアカウントが存在するユーザーは、X に Bluesky のアカウントを呟いている可能性があります。X で検索をすることによって、見つけることができるかもしれません。フォローしている人で、かつ Bluesky のアカウントのプロフィール URL を呟いているユーザーを検索するには `filter:follows -filter:retweets -filter:replies bsky.app` のように検索を行い、[このページ](https://twitter.com/search?q=filter%3Afollows%20-filter%3Aretweets%20-filter%3Areplies%20bsky.social&src=typed_query&f=live) で結果が確認できます。
 
 ### Bluesky ユーザーを検索する方法
 

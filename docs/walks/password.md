@@ -28,7 +28,7 @@ App Password は次の手順で発行することが可能です。
 
 ### 1. `Settings` から `App passwords` を選択
 
-画面左側のメニューから `Setting` (設定) を選択します。次に、設定画面の `Advanced` セクションの `App passwords` を選択します。
+画面左側のメニューから `Settings` (設定) を選択します。次に、設定画面の `Advanced` セクションの `App passwords` を選択します。
 
 <Image height="350" mb="1rem" mr="20px" src={require("./img/password/app_password_web_0.png").default} />
 <Image height="350" mb="1rem" src={require("./img/password/app_password_web_1.png").default} />
