@@ -48,22 +48,22 @@ Bluesky でカスタムドメインを設定する方法を説明します。
 
 #### 1. `Setting` から `Change handle` を選択
 
-画面左側のメニューから `Setting` (設定) を選択します。次に、設定画面の `Advanced` セクションの `Change handle` (ハンドルの変更) を選択します。
+画面左側のメニューから `Settings` (設定) を選択します。次に、設定画面の `Advanced` セクションの `Change handle` (ハンドルの変更) を選択します。
 
-<Image height="350" mb="1rem" mr="20px" src={require("./img/custom_domain_web_0.png").default} />
-<Image height="350" mb="1rem" src={require("./img/custom_domain_web_1.png").default} />
+<Image height="350" mb="1rem" mr="20px" src={require("./img/custom_domain/custom_domain_web_0.png").default} />
+<Image height="350" mb="1rem" src={require("./img/custom_domain/custom_domain_web_1.png").default} />
 
 #### 2. `I have my own domain` リンクを選択
 
 出てきたポップアップの `I have my own domain` (自分のドメインを持っています) を選択します。
 
-<Image width="500" src={require("./img/custom_domain_web_2.png").default} />
+<Image width="500" src={require("./img/custom_domain/custom_domain_web_2.png").default} />
 
 #### 3. 設定内容のコピー
 
 DNS の設定項目の内容である `did=` から始まる文字列をコピーします。
 
-<Image width="500" mb="1rem" src={require("./img/custom_domain_web_3.png").default} />
+<Image width="500" mb="1rem" src={require("./img/custom_domain/custom_domain_web_3.png").default} />
 
 ここまでの工程で上記の画面が出力されたと思いますので、赤枠の `Value:` の下にある `did=` で始まる文字列をコピーしてください。上記の画像の例だと`did=did:pic:iijrtk7ocored6zuziwmqq3c` をコピーすることになります。ここでコピーした値は次で DNS の設定を行う際に使用します。
 
@@ -83,11 +83,11 @@ DNS の設定項目の内容である `did=` から始まる文字列をコピ�
 
 ホーム画面から取得したドメインを選択します。
 
-<Image width="700" mb="1rem" src={require("./img/custom_domain_web_4_c_1.png").default} />
+<Image width="800" mb="1rem" src={require("./img/custom_domain/custom_domain_web_4_c_1.png").default} />
 
 `DNS` タブを選択します。
 
-<Image width="350" src={require("./img/custom_domain_web_4_c_2.png").default} />
+<Image width="350" src={require("./img/custom_domain/custom_domain_web_4_c_2.png").default} />
 
   </TabItem>
 
@@ -96,11 +96,11 @@ DNS の設定項目の内容である `did=` から始まる文字列をコピ�
 
 ホーム画面から、ドメインの DNS 設定を選択します。
 
-<Image width="450" mb="1rem" src={require("./img/custom_domain_web_4_o_1.png").default} />
+<Image width="500" mb="1rem" src={require("./img/custom_domain/custom_domain_web_4_o_1.png").default} />
 
 購入したドメインをチェックし、次へを選択します。
 
-<Image width="500" src={require("./img/custom_domain_web_4_o_2.png").default} />
+<Image width="500" src={require("./img/custom_domain/custom_domain_web_4_o_2.png").default} />
 
   </TabItem>
 </Tabs>
@@ -112,7 +112,7 @@ DNS の設定画面に遷移できたら、TXT レコードを追加します。
 <Tabs groupId="service" queryString>
   <TabItem value="cloudflare" label="Cloudflare Registrar" default>
 
-<Image width="800" mb="1rem" src={require("./img/custom_domain_web_5_c_1.png").default} />
+<Image width="800" mb="1rem" src={require("./img/custom_domain/custom_domain_web_5_c_1.png").default} />
 
 レコードの入力画面が出力されると思うので、次のように入力します。
 
@@ -122,7 +122,7 @@ DNS の設定画面に遷移できたら、TXT レコードを追加します。
 | **Name**     | \_atproto                                                                                       |
 | **Content**  | [先の手順](#3-設定内容のコピー) で Bluesky 公式クライアントからコピーした `did=` で始まる文字列 |
 
-<Image width="800" mb="1rem" src={require("./img/custom_domain_web_6_c_1.png").default} />
+<Image width="800" mb="1rem" src={require("./img/custom_domain/custom_domain_web_6_c_1.png").default} />
 
 入力したら、下の `Save` ボタンを押します。
 
@@ -130,7 +130,7 @@ DNS の設定画面に遷移できたら、TXT レコードを追加します。
 
   <TabItem value="onamae" label="お名前.com">
 
-<Image width="500" mb="1rem" src={require("./img/custom_domain_web_5_o_1.png").default} />
+<Image width="500" mb="1rem" src={require("./img/custom_domain/custom_domain_web_5_o_1.png").default} />
 
 レコードの入力画面が出力されると思うので、次のように入力します。
 
@@ -140,11 +140,11 @@ DNS の設定画面に遷移できたら、TXT レコードを追加します。
 | **TYPE**     | TXT                                                                                             |
 | **VALUE**    | [先の手順](#3-設定内容のコピー) で Bluesky 公式クライアントからコピーした `did=` で始まる文字列 |
 
-<Image width="800" mb="1rem" src={require("./img/custom_domain_web_6_o_1.png").default} />
+<Image width="800" mb="1rem" src={require("./img/custom_domain/custom_domain_web_6_o_1.png").default} />
 
 入力したら、右の `追加` ボタンを押してください。**追加を押しただけでは、設定は完了していません。** 追加後、画面の一番下にあるボタンから確認画面に遷移して確認を完了してください。
 
-<Image width="600" src={require("./img/custom_domain_web_6_o_2.png").default} />
+<Image width="500" src={require("./img/custom_domain/custom_domain_web_6_o_2.png").default} />
 
   </TabItem>
 </Tabs>
@@ -155,11 +155,11 @@ DNS の設定画面に遷移できたら、TXT レコードを追加します。
 
 DNS の設定が完了したら、Bluesky の公式クライアントの `Change Handle` 画面に戻ってください。次の画像の画面です。
 
-<Image width="500" mb="1rem" src={require("./img/custom_domain_web_7.png").default} />
+<Image width="500" mb="1rem" src={require("./img/custom_domain/custom_domain_web_7.png").default} />
 
 まず、上記の画像の `Enter the domain you want to use` の直下にある入力フィールドにあなたがハンドルとして設定したいドメインを入力してください。次に、画面の下部にある `Verify DNS Record` ボタンを押します。
 
-<Image width="500" mb="1rem" src={require("./img/custom_domain_web_8.png").default} />
+<Image width="500" mb="1rem" src={require("./img/custom_domain/custom_domain_web_8.png").default} />
 
 もしあなたが設定した DNS レコードの設定が正しい場合は、`Verify DNS Record` ボタンを押した後で上記画像のように `Domain verified!` メッセージが出力されます。あとは、`Update to xxxxx` ボタンを押すとあなたが設定したドメインがハンドルしてアカウントに設定されます。
 
