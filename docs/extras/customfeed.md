@@ -12,19 +12,14 @@ sidebar_position: 1
 
 ### 自身に関連するフィード
 
-- 自身のいいねを集めたフィード
-  - [Likes](https://bsky.app/profile/did:plc:vc7f4oafdgxsihk4cry2xpze/feed/likes)
-- 自身宛のメンション or リプライを集めたフィード
-  - [Mentions](https://bsky.app/profile/did:plc:wzsilnxf24ehtmmc3gssy5bu/feed/mentions)
-- 自身が投稿したメディアを集めたフィード
-  - [Media](https://bsky.app/profile/did:plc:vc7f4oafdgxsihk4cry2xpze/feed/media)
+- [Likes](https://bsky.app/profile/did:plc:vc7f4oafdgxsihk4cry2xpze/feed/likes) - 自身のいいねを集めたフィード
+- [Mentions](https://bsky.app/profile/did:plc:wzsilnxf24ehtmmc3gssy5bu/feed/mentions) - 自身宛のメンション or リプライを集めたフィード
+- [Media](https://bsky.app/profile/did:plc:vc7f4oafdgxsihk4cry2xpze/feed/media) - 自身が投稿したメディアを集めたフィード
 
 ### 特定の条件の投稿を集めたフィード
 
-- 新規ユーザーの初ポストを集めたフィード
-  - [Newskies](https://bsky.app/profile/did:plc:wzsilnxf24ehtmmc3gssy5bu/feed/newskies)
-- 日本語のポストを集めたフィード
-  - [Japanese Cluster](https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/cl-japanese)
+- [Newskies](https://bsky.app/profile/did:plc:wzsilnxf24ehtmmc3gssy5bu/feed/newskies) - 新規ユーザーの初ポストを集めたフィード
+- [Japanese Cluster](https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/cl-japanese) - 日本語のポストを集めたフィード
 
 ## カスタムフィードの作り方
 
