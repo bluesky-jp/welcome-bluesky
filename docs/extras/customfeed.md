@@ -20,6 +20,7 @@ sidebar_position: 1
 
 - [Newskies](https://bsky.app/profile/did:plc:wzsilnxf24ehtmmc3gssy5bu/feed/newskies) - 新規ユーザーの初ポストを集めたフィード
 - [Japanese Cluster](https://bsky.app/profile/did:plc:q6gjnaw2blty4crticxkmujt/feed/cl-japanese) - 日本語のポストを集めたフィード
+- [Japanese Super Hot](https://bsky.app/profile/did:plc:ilxxgyz7oz7mysber4omeqrg/feed/aaahn3ic3dtyi) - 100いいね以上ついた日本語のポストを集めたフィード
 
 ## カスタムフィードの作り方
 
