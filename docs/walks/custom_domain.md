@@ -166,3 +166,50 @@ DNS の設定が完了したら、Bluesky の公式クライアントの `Change
 :::tip
 もし DNS 認証で失敗し、`Domain verified!` が表示されない場合は、DNS レコードの設定が反映されるまで数分ほど待つか、[DNS レコードの設定](#3-dns-の設定)を見直してください。
 :::
+
+
+### 5. 認証できないときの確認方法
+
+うまく認証できないときは、デバッグツールで確認してみましょう。
+
+[Bluesky Debug Page](https://bsky-debug.app/handle) が公式から提供されています。こちらを使用することで、かんたんに原因を見つけることができます。
+
+テキストボックスにカスタムドメインを入力し、 `Debug handle` ボタンを押すと、ハンドルが正しく設定されているか自動的に検証してくれます。
+
+正しく設定できている場合、緑色のバナーとともに `Passed verification` と表示されます。
+
+<Image width="800" mb="1rem" src={require("./img/custom_domain/debug_page_verified.png").default} />
+
+失敗している場合、黄色いバナーとともに `Verification via DNS and HTTP failed` のようなメッセージが表示されます。
+
+<Image width="800" mb="1rem" src={require("./img/custom_domain/debug_page_failed.png").default} />
+
+バナーの下に、 DNS で検証した結果と、 HTTP で検証した結果の2つが表示されます。検証は両方とも成功する必要はありません。 __どちらか片方のみ成功していればOK__ です。
+
+検証される項目は以下の様になっています。
+
+#### A. DNS 認証
+
+##### 1. TXT レコードの有無
+
+期待された TXT レコードが存在するか検証します。
+
+##### 2. レコードの値
+
+期待されたフォーマットで値が設定されているか検証します。
+
+##### 3. パブリック DNS で名前解決可能か
+
+パブリック DNS から TXT レコードが解決可能かどうか検証します。
+
+
+
+#### B. HTTP 認証
+
+##### 1. エンドポイントの検証
+
+`https://<handle>/.well-known/atproto-did` に HTTPS で接続し、エンドポイントの URL が有効であるか検証します。
+
+##### 2. エンドポイントから返却される値の検証
+
+期待されたフォーマットで返却されるか検証します。
